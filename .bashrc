@@ -2,7 +2,7 @@
 
 ## Variables
 export PS1="\[\e[30;42m\][\w]\[\e[m\]\[\e[32m\] $\[\e[m\] "
-export PATH="~/.scripts:$PATH:/usr/local/sbin"
+export PATH="$HOME/.scripts:$PATH:/usr/local/sbin"
 export CPATH="/usr/local/include"
 export LIBRARY_PATH="/usr/local/lib"
 export EDITOR="$HOME/.scripts/em.sh -nw"  # seems like env vars are not able to resolve alias
@@ -21,9 +21,9 @@ alias ll='la -lh'
 alias ld='ls -d' # list directories not their contents; usually following wildcards; compare this to ls followed a directory name
 alias grep='grep --color=auto'
 alias emacs='emacs -daemon'
-alias em='~/.scripts/em.sh'     # default, sends to the existing client
-alias ec='~/.scripts/em.sh -nw' # open another client
-alias ssh='~/.scripts/ssh.sh'
+alias em='$HOME/.scripts/em.sh'     # default, sends to the existing client
+alias ec='$HOME/.scripts/em.sh -nw' # open another client
+alias ssh='$HOME/.scripts/ssh.sh'
 alias dotgit='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 
