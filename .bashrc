@@ -23,6 +23,7 @@ alias grep='grep --color=auto'
 alias emacs='emacs -daemon'
 alias em='~/.scripts/em.sh'     # default, sends to the existing client
 alias ec='~/.scripts/em.sh -nw' # open another client
+alias ssh='~/.scripts/ssh.sh'
 alias dotgit='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 
@@ -34,12 +35,6 @@ test -r "/usr/local/etc/profile.d/z.sh" && . /usr/local/etc/profile.d/z.sh
 
 export ITERM_ENABLE_SHELL_INTEGRATION_WITH_TMUX=YES
 test -e "${HOME}/.iterm2/iterm2_shell_integration.bash" && source "${HOME}/.iterm2/iterm2_shell_integration.bash"
-
-
-if [ -f "$HOME/.ssh/id_rsa" ]; then
-    . "$HOME/.scripts/ssh-agent-setup.sh"
-fi
-
 
 # .bashrc_local if it exists
 if [ -f "$HOME/.bashrc_local" ]; then
