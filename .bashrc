@@ -5,7 +5,7 @@ export PS1="\[\e[30;42m\][\w]\[\e[m\]\[\e[32m\] $\[\e[m\] "
 export PATH="$HOME/.scripts:$PATH:/usr/local/sbin"
 export CPATH="/usr/local/include"
 export LIBRARY_PATH="/usr/local/lib"
-export EDITOR="em.sh -nw"  # seems like env vars are not able to resolve alias
+export EDITOR="emacs.sh -f cli_server"  # seems like env vars are not able to resolve alias
 
 ## Options
 # cdable_vars: an argument to the cd builtin command that is not a directory is assumed to be the name of a variable whose value is the directory to change to.
@@ -20,8 +20,11 @@ alias la='ls -A'
 alias ll='la -lh'
 alias ld='ls -d' # list directories not their contents; usually following wildcards; compare this to ls followed a directory name
 alias grep='grep --color=auto'
-alias em='em.sh'     # default, sends to the existing client
-alias ec='em.sh -nw' # open another client
+# alias em='em.sh'     # default, sends to the existing client
+# alias ec='em.sh -nw' # open another client
+alias em="emacs.sh -f gui_server"
+alias ec="emacs.sh -f cli_server"
+
 alias ssh='ssh.sh'
 alias dotgit='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
