@@ -24,7 +24,7 @@ alias em="emacs.sh -f gui_server" # open the file in gui emacs
 alias ec="emacs.sh -s ~/.emacs.d/server/cli_server" # open the file in the current terminal window
 
 alias ssh='ssh.sh'
-alias dotgit='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dgit='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 
 ## Sources 
