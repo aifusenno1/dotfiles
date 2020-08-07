@@ -14,7 +14,6 @@ shopt -s cdspell
 shopt -s dirspell direxpand
 
 ## Aliases
-alias cd='cd ' # with this, shell will sub the alias after cd
 alias ls='ls -GF'
 alias la='ls -A'
 alias ll='la -lh'
@@ -22,7 +21,7 @@ alias ld='ls -d' # list directories not their contents; usually following wildca
 alias grep='grep --color=auto'
 alias em="emacs.sh -f gui_server" # open the file in gui emacs
 alias ec="emacs.sh -s ~/.emacs.d/server/cli_server" # open the file in the current terminal window
-
+alias typora="open -a typora"
 alias ssh='ssh.sh'
 alias dgit='git --git-dir=$HOME/.dotfiles.git --work-tree=$HOME'
 
