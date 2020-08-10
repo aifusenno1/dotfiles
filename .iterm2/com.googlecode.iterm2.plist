@@ -459,7 +459,7 @@ Split Horizontally with Current Profile</string>
 	dWxs0g0ODxJaTlMub2JqZWN0c1YkY2xhc3OiEBGAAoAKgA3TFA0OFRkdV05TLmtleXOj
 	FhcYgAOABIAFoxobHIAGgAeACIAJWklkZW50aWZpZXJVV2lkdGhWSGlkZGVuUTAjQGjA
 	AAAAAAAI0iUmJyhaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiJylYTlNP
-	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0BzsZ2yLQ5W0iUmNzhe
+	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0B0oZ2yLQ5W0iUmNzhe
 	TlNNdXRhYmxlQXJyYXmjNzkpV05TQXJyYXkACAARABoAJAApADIANwBJAEwAUgBUAGMA
 	aQBuAHkAgACDAIUAhwCJAJAAmACcAJ4AoACiAKYAqACqAKwArgC5AL8AxgDIANEA0gDX
 	AOIA6wD4APsBBAELAQ8BEQETARUBGQEbAR0BHwEhASMBLAExAUABRAAAAAAAAAIBAAAA
@@ -514,9 +514,9 @@ Split Horizontally with Current Profile</string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>1440 794 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 150 1677 877 0 0 1680 1027 </string>
+	<string>2166 111 1763 873 1440 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1704 85 2021 1179 1440 0 2560 1417 </string>
+	<string>1503 374 1437 873 1440 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
 	<string>420 1554 650 513 -466 1050 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 11</key>
@@ -538,7 +538,7 @@ Split Horizontally with Current Profile</string>
 	<key>NSWindow Frame iTerm Window 19</key>
 	<string>255 1320 650 513 -466 1050 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>0 0 1426 873 0 0 1440 877 </string>
+	<string>2369 82 1434 873 1440 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 20</key>
 	<string>276 1297 650 513 -466 1050 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 21</key>
@@ -827,7 +827,7 @@ Split Horizontally with Current Profile</string>
 				<real>1</real>
 			</dict>
 			<key>Cursor Type</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
@@ -1180,7 +1180,7 @@ Split Horizontally with Current Profile</string>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>0</integer>
+			<integer>3000</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1591,7 +1591,9 @@ Split Horizontally with Current Profile</string>
 								<key>algorithm</key>
 								<integer>1</integer>
 								<key>auto-rainbow style</key>
-								<integer>0</integer>
+								<integer>3</integer>
+								<key>font</key>
+								<string>.AppleSystemUIFont 12</string>
 							</dict>
 						</dict>
 					</dict>
@@ -1648,7 +1650,7 @@ Split Horizontally with Current Profile</string>
 			<key>Transparency</key>
 			<real>0.021825428299492321</real>
 			<key>Unlimited Scrollback</key>
-			<true/>
+			<false/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -3997,7 +3999,7 @@ Split Horizontally with Current Profile</string>
 			</dict>
 			<key>Bound Hosts</key>
 			<array>
-				<string>&amp;ssh</string>
+				<string>allpan@asic*</string>
 			</array>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -4041,7 +4043,7 @@ Split Horizontally with Current Profile</string>
 				<real>1</real>
 			</dict>
 			<key>Cursor Type</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>Custom Command</key>
 			<string>Yes</string>
 			<key>Custom Directory</key>
@@ -5870,10 +5872,10 @@ Split Horizontally with Current Profile</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
+		<string>Meslo LG M for Powerline</string>
 		<string>Meslo LG S for Powerline</string>
 		<string>Menlo</string>
 		<string>Source Code Pro for Powerline</string>
-		<string>Hack</string>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
@@ -5897,14 +5899,14 @@ Split Horizontally with Current Profile</string>
 		<key>screenFrame</key>
 		<string>{{1440, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{1908, 633}</string>
+		<string>{1753, 691}</string>
 	</dict>
 	<key>NoSyncHaveUsedCopyMode</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>8276CFF0-5F5B-47AC-B225-826EEA7C4FD5</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>165</integer>
+	<integer>169</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -6757,7 +6759,7 @@ Split Horizontally with Current Profile</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-07-31T01:45:04Z</date>
+	<date>2020-08-09T01:45:49Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
@@ -6808,6 +6810,7 @@ Split Horizontally with Current Profile</string>
 	<array>
 		<string>Recent Directories</string>
 		<string>Command History</string>
+		<string>Profiles</string>
 	</array>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1594343680</real>
